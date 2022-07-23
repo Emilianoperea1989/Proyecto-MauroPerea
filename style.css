@@ -1,0 +1,364 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+/* ---------Navegador----------- */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+
+header nav {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(126, 126, 126, 0.794);
+    align-items: center;
+    padding: 30px;
+}
+
+header nav h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 10px;
+}
+
+header nav ul {
+    display: flex;
+
+}
+
+
+header nav ul li {
+    list-style: none;
+    font-size: 20px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+h2 {
+
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.emblema{
+    
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    text-shadow:  0 0 20px rgba(0, 0, 0, 0.7);
+}
+/* ---------MAIN DE LOS 5 HTML ----------- */
+
+.banner {
+    
+    height: 100vh;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0px 20px 20px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    
+}
+
+
+.banner-productos {
+   
+    height: 100vh;
+    background-image: url(img/productos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0px 20px 20px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    
+
+}
+
+.banner-productos h2 {
+
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.781);
+}
+.banner-sucursales {
+    
+    height: 100vh;
+    background-image: url(img/sucursales.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0px 20px 20px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+
+}
+
+.banner-sucursales h2 {
+
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.781);
+}
+.banner-nosotros {
+   
+    height: 100vh;
+    background-image: url(img/nosotros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0px 20px 20px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+
+}
+
+.banner-nosotros h2 {
+
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.781);
+}
+.banner-contacto {
+   
+    height: 100vh;
+    background-image: url(img/contacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0px 20px 20px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.banner-contacto h2 {
+
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+article p{
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+    padding: 40px;
+    
+}
+
+.puntos-de-venta p{
+ text-align: center;
+ font-size: 50px;
+ padding: 40px;
+ 
+}
+
+.puntos{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+   
+
+}
+
+.puntos p{
+    margin: 20px;
+    color: blue;
+    border: solid 4px black;
+    padding: 4px;
+}
+
+section h5{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    text-decoration: underline;
+   
+}
+
+
+.delicias {
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.delicias div img {
+    margin: 20px;
+    
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+
+}
+
+
+/* -------grid index--------- */
+    
+
+ .productos{
+    display: grid;
+    grid-template-rows: 500px 1fr 500px;
+    grid-template-areas: "img1 img1 img2"
+                         "img3 img4 img2"
+                         "img5 img5 img5";
+    gap: 20px;    
+    margin: 20px;
+ }
+
+
+
+.item1 {
+    grid-area: img1;
+}
+
+.item2 {
+    grid-area: img2;
+}
+
+.item3 {
+    grid-area: img3;
+}
+.item4 {
+    grid-area: img4;
+}
+.item5 {
+    grid-area: img5;
+}
+
+.productos div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+/* ---------FOOTER----------- */
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+    padding: 40px;
+    display: block;
+    background-color: antiquewhite;
+
+}
+
+/* ---------MediaQuery----------- */
+
+@media screen and (max-width:1200px){
+
+
+
+header nav h1{
+    display: none;  
+} 
+.puntos{
+    display: none;
+}   
+header nav {
+    justify-content:center;
+    align-items: center;    
+}
+article p{
+    font-size: 16px;
+}
+
+.puntos-de-venta p{
+    font-size: 16px;
+   
+    
+   }
+
+}
+
+
+
+
+@media screen and (max-width:625px){
+h4.emblema{
+    visibility: hidden;
+    
+}
+h4.emblema::before{
+    visibility: visible;
+    content: "Nuestra Delicias";
+    font-size: 60px;
+    float: left;
+    text-decoration: underline;    
+    
+}
+
+header nav ul{
+    display: flex ;
+    flex-direction: column;
+ 
+     
+}
+header nav ul li{
+    margin: 5px;
+    text-align: center;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;    
+    
+}
+
+.banner h2{
+    visibility:hidden ;
+}
+
+footer{
+    font-size: 12px;
+}
+
+.delicias div img {
+    
+    
+    width: 300px;
+    height: 300px;
+   
+
+}
+
+}
