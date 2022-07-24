@@ -72,7 +72,7 @@ a:hover{
 
 li:hover{
     animation-name: escala;
-    animation-duration: 1s;
+    animation-duration: 0.3s;
     animation-fill-mode: forwards;
    
 } 
