@@ -374,6 +374,18 @@ header nav ul li{
     margin: 5px;
     text-align: center;
 }
+a:hover{
+    color: black;
+    font-weight: 1000;
+    background-color: rgb(196, 196, 196);
+    border-radius: 8px;
+    
+}
+
+li:hover{
+  animation-play-state: paused;
+} 
+
 .productos{
     display: flex;
     flex-wrap: wrap;    
