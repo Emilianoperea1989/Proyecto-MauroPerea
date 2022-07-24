@@ -321,7 +321,7 @@ h4.emblema{
 }
 h4.emblema::before{
     visibility: visible;
-    content: "Nuestra Delicias";
+    content: "Nuestras Delicias";
     font-size: 60px;
     float: left;
     text-decoration: underline;    
