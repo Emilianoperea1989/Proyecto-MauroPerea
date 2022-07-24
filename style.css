@@ -377,8 +377,8 @@ header nav ul li{
 a:hover{
     color: black;
     font-weight: 1000;
-    background-color: rgb(196, 196, 196);
-    border-radius: 8px;
+    background-color: transparent;
+   
     
 }
 
