@@ -22,6 +22,7 @@ header nav {
     background-color: rgba(126, 126, 126, 0.794);
     align-items: center;
     padding: 30px;
+    
 }
 
 header nav h1 {
@@ -36,6 +37,8 @@ header nav h1 {
 
 header nav ul {
     display: flex;
+ 
+   
 
 }
 
@@ -43,33 +46,50 @@ header nav ul {
 header nav ul li {
     list-style: none;
     font-size: 20px;
-
+    margin: 10px;
+   
+    
+  
 }
 
 header nav ul li a {
     text-decoration: none;
     color: white;
-    margin: 8px;
-    animate__pulse
-}
-@keyframes scala {
-	0% {
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
-		transform: scale(1);
-	}
-
-	100% {
-		box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35), 0 12px 20px -12px rgba(0, 0, 0, 0.35);
-		transform: scale(1.1);
-	}
+    padding: 8px;
+    
+   
+   
 }
 
-
-a:hover {
-    text-decoration: underline;
+/*-------- animaciones--------- */
+a:hover{
     color: black;
+    font-weight: 1000;
+    background-color: rgb(196, 196, 196);
+    border-radius: 8px;
+    
 }
 
+li:hover{
+    animation-name: escala;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+   
+} 
+@keyframes escala{
+    0%{
+        transform: scale(1);
+       
+    }
+  
+   
+    100%{
+        transform: scale(1.2);
+        
+       
+    }
+  
+}
 
 h2 {
 
