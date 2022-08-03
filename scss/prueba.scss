@@ -1,43 +1,4 @@
-header {
-    position: fixed;
-    width: 100%;
-    height: 100px;
-
-
-    nav {
-
-        display: flex;
-        justify-content: space-between;
-        background-color: rgba(126, 126, 126, 0.794);
-        align-items: center;
-        padding: 30px;
-
-        h1 {
-            color: rgb(255, 255, 255);
-            font-size: 50px;
-            font-style: italic;
-            text-shadow: 10px;
-        }
-
-        ul {
-            display: flex;
-    
-            li {
-                list-style: none;
-                font-size: 20px;
-                margin: 10px;
-        
-                a {
-                    text-decoration: none;
-                    color: white;
-                    padding: 8px;
-                      
-                }
-
-            }
-
-        }
-
-    }
-
-}
+@import "_variables.scss";
+@import "_resetwebstyle";
+@import "_header.scss";
+@import "_main";
