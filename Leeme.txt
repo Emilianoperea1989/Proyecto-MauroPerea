@@ -1,0 +1,9 @@
+Se implemento maps y @each en el header.. hace q cada pagina cambie de color el header.
+
+Se implemento @extend en el banner , ya que se repetia en los 5 html.
+
+Se implemento mixin y @include dentro del main donde estan los h2 de el banner.
+
+Se implemento en el titulo , la referencia de en que página estamos.
+
+se implemento en el head de cada html los keywords y descripcion, en algunos con constantes y otros variables

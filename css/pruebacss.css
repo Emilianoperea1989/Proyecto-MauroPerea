@@ -31,7 +31,7 @@ header {
           color: white;
           padding: 8px; }
 
-.banner {
+.banner, .banner-productos, .banner-sucursales, .banner-nosotros, .banner-contacto {
   height: 100vh;
   background-image: url(../img/banner.jpg);
   background-size: cover;
@@ -45,17 +45,7 @@ header {
   font-family: "Roboto Mono", monospace; }
 
 .banner-productos {
-  height: 100vh;
-  background-image: url(../img/productos.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0px 20px 20px 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-  font-family: "Roboto Mono", monospace; }
+  background-image: url(../img/productos.jpg); }
   .banner-productos h2 {
     font-size: 50px;
     color: white;
@@ -63,17 +53,7 @@ header {
     font-family: "Roboto Mono", monospace; }
 
 .banner-sucursales {
-  height: 100vh;
-  background-image: url(../img/sucursales.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0px 20px 20px 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-  font-family: "Roboto Mono", monospace; }
+  background-image: url(../img/sucursales.jpg); }
   .banner-sucursales h2 {
     font-size: 50px;
     color: white;
@@ -81,17 +61,7 @@ header {
     font-family: "Roboto Mono", monospace; }
 
 .banner-nosotros {
-  height: 100vh;
-  background-image: url(../img/nosotros.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0px 20px 20px 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-  font-family: "Roboto Mono", monospace; }
+  background-image: url(../img/nosotros.jpg); }
   .banner-nosotros h2 {
     font-size: 50px;
     color: white;
@@ -99,17 +69,7 @@ header {
     font-family: "Roboto Mono", monospace; }
 
 .banner-contacto {
-  height: 100vh;
-  background-image: url(../img/contacto.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0px 20px 20px 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-  font-family: "Roboto Mono", monospace; }
+  background-image: url(../img/contacto.jpg); }
   .banner-contacto h2 {
     font-size: 50px;
     color: white;
@@ -254,10 +214,25 @@ section h5 {
   .productos {
     display: flex;
     flex-wrap: wrap; }
-  .banner h2 {
+  .banner h2, .banner-productos h2, .banner-sucursales h2, .banner-nosotros h2, .banner-contacto h2 {
     visibility: hidden; }
   footer {
     font-size: 12px; }
   .delicias div img {
     width: 300px;
     height: 300px; } }
+
+.header-rojo {
+  background-color: red; }
+
+.header-azul {
+  background-color: blue; }
+
+.header-verde {
+  background-color: green; }
+
+.header-violeta {
+  background-color: #701c6c; }
+
+.header-negro {
+  background-color: black; }
